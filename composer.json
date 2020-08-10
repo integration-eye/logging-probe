@@ -1,0 +1,28 @@
+{
+    "name": "integration-eye/logging-probe",
+    "description": "Integration Eye™ Logging Probe",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Integsoft s.r.o.",
+            "email": "support@integrationeye.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Integsoft\\Hub\\Probe\\": "lib/"
+        }
+    },
+    "require": {
+        "php": ">= 7.1",
+        "ext-json": "*",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "symfony/http-client": "^5.1"
+    },
+    "suggest": {
+        "symfony/http-client": "Used for default Client implementation"
+    }
+}
